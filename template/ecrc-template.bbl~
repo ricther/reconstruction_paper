@@ -1,0 +1,197 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{cline_two_1988}
+H.~E. Cline, W.~E. Lorensen, S.~Ludke, C.~R. Crawford, B.~C. Teeter, Two
+  algorithms for the three-dimensional reconstruction of tomograms, Medical
+  physics 15~(3) (1988) 320--327, {PMID:} 3043154.
+
+\bibitem{lorensen_marching_1987}
+W.~E. Lorensen, H.~E. Cline,
+  \href{http://doi.acm.org/10.1145/37401.37422}{Marching cubes: A high
+  resolution {3D} surface construction algorithm}, in: Proceedings of the 14th
+  Annual Conference on Computer Graphics and Interactive Techniques, {SIGGRAPH}
+  '87, {ACM}, New York, {NY}, {USA}, 1987, p. 163–169.
+\newblock \href {http://dx.doi.org/10.1145/37401.37422}
+  {\path{doi:10.1145/37401.37422}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/37401.37422}
+
+\bibitem{jin_improved_2006}
+J.~Jin, Q.~Wang, Y.~Shen, J.~Hao, An improved marching cubes method for surface
+  reconstruction of volume data, in: The Sixth World Congress on Intelligent
+  Control and Automation, 2006. {WCICA} 2006, Vol.~2, 2006, pp. 10454--10457.
+\newblock \href {http://dx.doi.org/10.1109/WCICA.2006.1714052}
+  {\path{doi:10.1109/WCICA.2006.1714052}}.
+
+\bibitem{keppel_approximating_1975}
+E.~Keppel, \href{http://dx.doi.org/10.1147/rd.191.0002}{Approximating complex
+  surfaces by triangulation of contour lines}, {IBM} J. Res. Dev. 19~(1) (1975)
+  2–11.
+\newblock \href {http://dx.doi.org/10.1147/rd.191.0002}
+  {\path{doi:10.1147/rd.191.0002}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1147/rd.191.0002}
+
+\bibitem{fuchs_optimal_1977}
+H.~Fuchs, Z.~M. Kedem, S.~P. Uselton,
+  \href{http://doi.acm.org/10.1145/359842.359846}{Optimal surface
+  reconstruction from planar contours}, Commun. {ACM} 20~(10) (1977) 693–702.
+\newblock \href {http://dx.doi.org/10.1145/359842.359846}
+  {\path{doi:10.1145/359842.359846}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/359842.359846}
+
+\bibitem{sloan_pessimal_1988}
+K.~R. Sloan, J.~Painter, \href{http://dx.doi.org/10.1109/34.9117}{Pessimal
+  guesses may be optimal: A counterintuitive search result}, {IEEE} Trans.
+  Pattern Anal. Mach. Intell. 10~(6) (1988) 949–955.
+\newblock \href {http://dx.doi.org/10.1109/34.9117}
+  {\path{doi:10.1109/34.9117}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1109/34.9117}
+
+\bibitem{christiansen_conversion_1978}
+H.~N. Christiansen, T.~W. Sederberg,
+  \href{http://doi.acm.org/10.1145/800248.807388}{Conversion of complex contour
+  line definitions into polygonal element mosaics}, in: Proceedings of the 5th
+  Annual Conference on Computer Graphics and Interactive Techniques, {SIGGRAPH}
+  '78, {ACM}, New York, {NY}, {USA}, 1978, p. 187–192.
+\newblock \href {http://dx.doi.org/10.1145/800248.807388}
+  {\path{doi:10.1145/800248.807388}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/800248.807388}
+
+\bibitem{barequet_piecewise-linear_1996}
+G.~Barequet, M.~Sharir,
+  \href{http://www.sciencedirect.com/science/article/pii/S1077314296900181}{Piecewise-linear
+  interpolation between polygonal slices}, Computer Vision and Image
+  Understanding 63~(2) (1996) 251--272.
+\newblock \href {http://dx.doi.org/10.1006/cviu.1996.0018}
+  {\path{doi:10.1006/cviu.1996.0018}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1077314296900181}
+
+\bibitem{barequet_history_1996}
+G.~Barequet, D.~Shapiro, A.~Tal,
+  \href{http://dl.acm.org/citation.cfm?id=244979.245044}{History consideration
+  in reconstructing polyhedral surfaces from parallel slices}, in: Proceedings
+  of the 7th Conference on Visualization '96, {VIS} '96, {IEEE} Computer
+  Society Press, Los Alamitos, {CA}, {USA}, 1996, p. 149–ff.
+\newline\urlprefix\url{http://dl.acm.org/citation.cfm?id=244979.245044}
+
+\bibitem{barequet_multilevel_2000}
+G.~Barequet, D.~Shapiro, A.~Tal, Multilevel sensitive reconstruction of
+  polyhedral surfaces from parallel slices., The Visual Computer 16~(2) (2000)
+  116--133.
+
+\bibitem{bajaj_arbitrary_1996}
+C.~L. Bajaj, E.~J. Coyle, K.-N. Lin,
+  \href{http://www.sciencedirect.com/science/article/pii/S1077316996900441}{Arbitrary
+  topology shape reconstruction from planar cross sections}, Graphical Models
+  and Image Processing 58~(6) (1996) 524--543.
+\newblock \href {http://dx.doi.org/10.1006/gmip.1996.0044}
+  {\path{doi:10.1006/gmip.1996.0044}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1077316996900441}
+
+\bibitem{hong_implicit_2012}
+Q.~Hong, Q.~Li, J.~Tian, Implicit reconstruction of vasculatures using
+  bivariate piecewise algebraic splines, {IEEE} Transactions on Medical Imaging
+  31~(3) (2012) 543--553.
+\newblock \href {http://dx.doi.org/10.1109/TMI.2011.2172455}
+  {\path{doi:10.1109/TMI.2011.2172455}}.
+
+\bibitem{liu_surface_2008}
+L.~Liu, C.~Bajaj, J.~O. Deasy, D.~A. Low, T.~Ju,
+  \href{http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2008.01112.x/abstract}{Surface
+  reconstruction from non-parallel curve networks}, Computer Graphics Forum
+  27~(2) (2008) 155–163.
+\newblock \href {http://dx.doi.org/10.1111/j.1467-8659.2008.01112.x}
+  {\path{doi:10.1111/j.1467-8659.2008.01112.x}}.
+\newline\urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2008.01112.x/abstract}
+
+\bibitem{barequet_reconstruction_2009}
+G.~Barequet, A.~Vaxman,
+  \href{http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2009.01510.x/abstract}{Reconstruction
+  of multi-label domains from partial planar cross-sections}, Computer Graphics
+  Forum 28~(5) (2009) 1327–1337.
+\newblock \href {http://dx.doi.org/10.1111/j.1467-8659.2009.01510.x}
+  {\path{doi:10.1111/j.1467-8659.2009.01510.x}}.
+\newline\urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2009.01510.x/abstract}
+
+\bibitem{bermano_online_2011}
+A.~Bermano, A.~Vaxman, C.~Gotsman,
+  \href{http://doi.acm.org/10.1145/2019627.2019632}{Online reconstruction of
+  {3D} objects from arbitrary cross-sections}, {ACM} Trans. Graph. 30~(5)
+  (2011) 113:1–113:11.
+\newblock \href {http://dx.doi.org/10.1145/2019627.2019632}
+  {\path{doi:10.1145/2019627.2019632}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/2019627.2019632}
+
+\bibitem{paragios_non-rigid_2003}
+N.~Paragios, M.~Rousson, V.~Ramesh,
+  \href{http://www.sciencedirect.com/science/article/pii/S1077314203000109}{Non-rigid
+  registration using distance functions}, Computer Vision and Image
+  Understanding 89~(2–3) (2003) 142--165.
+\newblock \href {http://dx.doi.org/10.1016/S1077-3142(03)00010-9}
+  {\path{doi:10.1016/S1077-3142(03)00010-9}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1077314203000109}
+
+\bibitem{xu_deformation_2010}
+C.~Xu, J.~J. Pilla, G.~Isaac, J.~H.~G. Iii, A.~S. Blom, R.~C. Gorman, Z.~Ling,
+  L.~Dougherty,
+  \href{http://link.springer.com/article/10.1186/1532-429X-12-19}{Deformation
+  analysis of {3D} tagged cardiac images using an optical flow method}, Journal
+  of Cardiovascular Magnetic Resonance 12~(1) (2010) 1--14.
+\newblock \href {http://dx.doi.org/10.1186/1532-429X-12-19}
+  {\path{doi:10.1186/1532-429X-12-19}}.
+\newline\urlprefix\url{http://link.springer.com/article/10.1186/1532-429X-12-19}
+
+\bibitem{belongie_matching_2001}
+S.~Belongie, J.~Malik, J.~Puzicha, Matching shapes, in: Eighth {IEEE}
+  International Conference on Computer Vision, 2001. {ICCV} 2001. Proceedings,
+  Vol.~1, 2001, pp. 454--461 vol.1.
+\newblock \href {http://dx.doi.org/10.1109/ICCV.2001.937552}
+  {\path{doi:10.1109/ICCV.2001.937552}}.
+
+\bibitem{roth_registration_2013}
+H.~R. Roth, J.~R. {McClelland}, T.~E. Hampshire, D.~J. Boone, Y.~Hu, M.~Modat,
+  H.~Zhang, S.~Ourselin, S.~Halligan, D.~J. Hawkes,
+  \href{http://link.springer.com/chapter/10.1007/978-3-642-41083-3_4}{Registration
+  of prone and supine {CT} colonography datasets with differing endoluminal
+  distension}, in: H.~Yoshida, S.~Warfield, M.~W. Vannier (Eds.), Abdominal
+  Imaging. Computation and Clinical Applications, no. 8198 in Lecture Notes in
+  Computer Science, Springer Berlin Heidelberg, 2013, pp. 29--38.
+\newline\urlprefix\url{http://link.springer.com/chapter/10.1007/978-3-642-41083-3_4}
+
+\bibitem{huang_shape_2006}
+X.~Huang, N.~Paragios, D.~Metaxas, Shape registration in implicit spaces using
+  information theory and free form deformations, {IEEE} Transactions on Pattern
+  Analysis and Machine Intelligence 28~(8) (2006) 1303--1318.
+\newblock \href {http://dx.doi.org/10.1109/TPAMI.2006.171}
+  {\path{doi:10.1109/TPAMI.2006.171}}.
+
+\bibitem{meyers_surfaces_1992}
+D.~Meyers, S.~Skinner, K.~Sloan,
+  \href{http://doi.acm.org/10.1145/130881.131213}{Surfaces from contours},
+  {ACM} Trans. Graph. 11~(3) (1992) 228–258.
+\newblock \href {http://dx.doi.org/10.1145/130881.131213}
+  {\path{doi:10.1145/130881.131213}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/130881.131213}
+
+\bibitem{geiger_three-dimensional_1993}
+B.~Geiger,
+  \href{http://citeseer.uark.edu:8380/citeseerx/viewdoc/summary?doi=10.1.1.56.9652}{Three-dimensional
+  modeling of human organs and its application to diagnosis and surgical
+  planning}, Ph.D. thesis, {INRIA} Tech. Rep. 2105 (1993).
+\newline\urlprefix\url{http://citeseer.uark.edu:8380/citeseerx/viewdoc/summary?doi=10.1.1.56.9652}
+
+\bibitem{jeong_b-spline_1999}
+J.~Jeong, K.~Kim, H.~Park, H.~Cho, M.~Jung,
+  \href{http://link.springer.com/article/10.1007/s001700050145}{B-spline
+  surface approximation to cross-sections using distance maps}, The
+  International Journal of Advanced Manufacturing Technology 15~(12) (1999)
+  876--885.
+\newblock \href {http://dx.doi.org/10.1007/s001700050145}
+  {\path{doi:10.1007/s001700050145}}.
+\newline\urlprefix\url{http://link.springer.com/article/10.1007/s001700050145}
+
+\end{thebibliography}

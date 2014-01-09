@@ -1,0 +1,48 @@
+(TeX-add-style-hook "ecrc-template"
+ (lambda ()
+    (LaTeX-add-bibliographies
+     "reference")
+    (LaTeX-add-labels
+     "section1"
+     "fig:global"
+     "fig:local"
+     "fig:the correspondence decision"
+     "section2"
+     "fig:bridge-nc"
+     "fig:bridge-c"
+     "fig:bridges"
+     "fig:branch-contour"
+     "fig:branch-hull"
+     "fig:branch-bridge"
+     "fig:branch-but"
+     "fig:branch-middle"
+     "fig:branches"
+     "section3"
+     "fig:fluent"
+     "ffd"
+     "formula:theta"
+     "formula:original"
+     "formula:deformation"
+     "formula:data-driven"
+     "formula:smoothness"
+     "formual:energy"
+     "fig:FFD_original"
+     "fig:FFD_Lattice"
+     "fig:FFD_Result"
+     "medial axis"
+     "section4")
+    (TeX-run-style-hooks
+     "rotating"
+     "figuresright"
+     "amssymb"
+     "amsmath"
+     "subcaption"
+     "graphicx"
+     "ecrc"
+     ""
+     "latex2e"
+     "elsarticle10"
+     "elsarticle"
+     "times"
+     "3p")))
+
