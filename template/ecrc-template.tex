@@ -564,32 +564,41 @@ E_{smoothness}(\Theta)=\iint\limits_D\left( \frac{\partial\delta L(\Theta:\mathb
  }{\partial \theta} E_{data}+\frac{\partial}{\partial \theta} E_{smoothness}
 \end{equation}
 
-
-
 \begin{figure}[ht]
 \centering
 \begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/FFD_original.png}
+\includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_original_2_3.png}
 \caption{}
-\label{fig:FFD_original}
+\label{fig:FFD_original_2_3}
 \end{subfigure}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/FFD_Lattice.png}
+\includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_lattice_2_3.png}
 \caption{}
-\label{fig:FFD_Lattice}
+\label{fig:FFD_lattice_2_3}
 \end{subfigure}
 
 \begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/FFD_Result.png}
+\includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_transformed_2_3.png}
 \caption{}
-\label{fig:FFD_Result}
+\label{fig:FFD_transformed_2_3}
 \end{subfigure}
-\caption{Matching based on the FFD. (a)Final FFD control lattice
-  configuration depicting the space warping to achieve local
-  registration. (b)Locally deformed upper layer(in green) covered by the lower
-  layer(in red)}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.25\textwidth}
+\includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_surface_2_3.png}
+\caption{}
+\label{fig:FFD_transformed_2_3}
+\end{subfigure}
+\caption{Matching based on the FFD. 
+  (a) the original contours of a pair, the upper contour (in red), and the lower layer (green line)
+  (b) the embedding space of the upper contour.
+  (c) Final FFD control lattice configuration depicting the space
+  warping to achieve a high degree of resemblance.
+  (d) The surface stitched based on the matching result.}
 \end{figure}
+
+
+
 
 \subsection{Branching Problem}
 \label{medial axis}
@@ -601,6 +610,32 @@ the branching problem to one-to-one case.
 
 
 region voronoi diagram;medial axis
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.25\textwidth}
+\includegraphics[width=\textwidth]{../picture/FFD_original_20_21.png}
+\caption{}
+\label{fig:FFD_original}
+\end{subfigure}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.25\textwidth}
+\includegraphics[width=\textwidth]{../picture/FFD_Lattice_20_21.png}
+\caption{}
+\label{fig:FFD_Lattice}
+\end{subfigure}
+
+\begin{subfigure}[b]{0.25\textwidth}
+\includegraphics[width=\textwidth]{../picture/FFD_Result_20_21.png}
+\caption{}
+\label{fig:FFD_Result}
+\end{subfigure}
+\caption{Matching based on the FFD. (a)Final FFD control lattice
+  configuration depicting the space warping to achieve local
+  registration. (b)Locally deformed upper layer(in green) covered by the lower
+  layer(in red)}
+\end{figure}
+
 \section{Results and Discussions}
 \label{section4}
 \subsection{Capping Region Problem} 

@@ -3,10 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ecrc-template.aux
 The style file: elsarticle-num.bst
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "formula:original"
 You've used 23 entries,
             2937 wiz_defined-function locations,
-            862 strings with 11201 characters,
+            861 strings with 11185 characters,
 and the built_in function-call counts, 9462 in all, are:
 = -- 974
 > -- 270
@@ -45,4 +44,3 @@ warning$ -- 0
 while$ -- 61
 width$ -- 25
 write$ -- 258
-(There was 1 warning)

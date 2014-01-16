@@ -26,10 +26,13 @@
      "formula:data-driven"
      "formula:smoothness"
      "formual:energy"
+     "fig:FFD_original_2_3"
+     "fig:FFD_lattice_2_3"
+     "fig:FFD_transformed_2_3"
+     "medial axis"
      "fig:FFD_original"
      "fig:FFD_Lattice"
      "fig:FFD_Result"
-     "medial axis"
      "section4")
     (TeX-run-style-hooks
      "rotating"

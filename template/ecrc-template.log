@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.12.26)  8 JAN 2014 12:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.9)  15 JAN 2014 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,7 +541,14 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip51
 \rot@float@box=\box32
 \rot@mess@toks=\toks23
-) (./ecrc-template.aux)
+) (./ecrc-template.aux
+
+LaTeX Warning: Label `fig:FFD_transformed_2_3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:FFD_transformed_2_3' multiply defined.
+
+)
 \openout1 = `ecrc-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 133.
@@ -866,44 +873,67 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 508.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 508
 .
 
-[4] <../picture/FFD_original.png, id=44, 422.57875pt x 200.75pt>
-File: ../picture/FFD_original.png Graphic file (type png)
+[4] <../picture/FFD_original_2_3.png, id=44, 1184.425pt x 1053.9375pt>
+File: ../picture/FFD_original_2_3.png Graphic file (type png)
 
-<use ../picture/FFD_original.png>
-Package pdftex.def Info: ../picture/FFD_original.png used on input line 572.
+<use ../picture/FFD_original_2_3.png>
+Package pdftex.def Info: ../picture/FFD_original_2_3.png used on input line 570
+.
+(pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
+
+<../picture/FFD_lattice_2_3.png, id=45, 1184.425pt x 1053.9375pt>
+File: ../picture/FFD_lattice_2_3.png Graphic file (type png)
+
+<use ../picture/FFD_lattice_2_3.png>
+Package pdftex.def Info: ../picture/FFD_lattice_2_3.png used on input line 576.
+
+(pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
+
+<../picture/FFD_transformed_2_3.png, id=46, 1184.425pt x 1053.9375pt>
+File: ../picture/FFD_transformed_2_3.png Graphic file (type png)
+
+<use ../picture/FFD_transformed_2_3.png>
+Package pdftex.def Info: ../picture/FFD_transformed_2_3.png used on input line 
+582.
+(pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
+
+<../picture/FFD_surface_2_3.png, id=47, 1184.425pt x 1053.9375pt>
+File: ../picture/FFD_surface_2_3.png Graphic file (type png)
+
+<use ../picture/FFD_surface_2_3.png>
+Package pdftex.def Info: ../picture/FFD_surface_2_3.png used on input line 588.
+
+(pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
+
+<../picture/FFD_original_20_21.png, id=48, 422.57875pt x 200.75pt>
+File: ../picture/FFD_original_20_21.png Graphic file (type png)
+
+<use ../picture/FFD_original_20_21.png>
+Package pdftex.def Info: ../picture/FFD_original_20_21.png used on input line 6
+17.
 (pdftex.def)             Requested size: 117.0pt x 55.58165pt.
 
-<../picture/FFD_Lattice.png, id=45, 360.34625pt x 174.6525pt>
-File: ../picture/FFD_Lattice.png Graphic file (type png)
+<../picture/FFD_Lattice_20_21.png, id=49, 360.34625pt x 174.6525pt>
+File: ../picture/FFD_Lattice_20_21.png Graphic file (type png)
 
-<use ../picture/FFD_Lattice.png>
-Package pdftex.def Info: ../picture/FFD_Lattice.png used on input line 578.
+<use ../picture/FFD_Lattice_20_21.png>
+Package pdftex.def Info: ../picture/FFD_Lattice_20_21.png used on input line 62
+3.
 (pdftex.def)             Requested size: 117.0pt x 56.70541pt.
 
-<../picture/FFD_Result.png, id=46, 396.48125pt x 194.7275pt>
-File: ../picture/FFD_Result.png Graphic file (type png)
+<../picture/FFD_Result_20_21.png, id=50, 396.48125pt x 194.7275pt>
+File: ../picture/FFD_Result_20_21.png Graphic file (type png)
 
-<use ../picture/FFD_Result.png>
-Package pdftex.def Info: ../picture/FFD_Result.png used on input line 584.
+<use ../picture/FFD_Result_20_21.png>
+Package pdftex.def Info: ../picture/FFD_Result_20_21.png used on input line 629
+.
 (pdftex.def)             Requested size: 117.0pt x 57.46193pt.
  (./ecrc-template.bbl
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
- [5 <../picture/FFD_original.png> <../picture/FFD_Lattice.png> <../picture/FFD_
-Result.png>]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
+ [5 <../picture/FFD_original_2_3.png> <../picture/FFD_lattice_2_3.png> <../pict
+ure/FFD_transformed_2_3.png> <../picture/FFD_surface_2_3.png>]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -922,30 +952,48 @@ Missing character: There is no “ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
-) [6]
-(./ecrc-template.aux) ) 
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+ [6 <../picture/FFD_original_20_21.png> <../picture/FFD_Lattice_20_21.png> <../
+picture/FFD_Result_20_21.png>]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+)
+[7] (./ecrc-template.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5417 strings out of 495031
- 77904 string characters out of 6181530
- 141159 words of memory out of 5000000
- 8474 multiletter control sequences out of 15000+600000
+ 5443 strings out of 495031
+ 78799 string characters out of 6181532
+ 141249 words of memory out of 5000000
+ 8496 multiletter control sequences out of 15000+600000
  37638 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,12n,40p,523b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.e
-nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (6 pages, 438247 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
+ex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on ecrc-template.pdf (7 pages, 721339 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -126,6 +126,31 @@ A.~Bermano, A.~Vaxman, C.~Gotsman,
   {\path{doi:10.1145/2019627.2019632}}.
 \newline\urlprefix\url{http://doi.acm.org/10.1145/2019627.2019632}
 
+\bibitem{meyers_surfaces_1992}
+D.~Meyers, S.~Skinner, K.~Sloan,
+  \href{http://doi.acm.org/10.1145/130881.131213}{Surfaces from contours},
+  {ACM} Trans. Graph. 11~(3) (1992) 228–258.
+\newblock \href {http://dx.doi.org/10.1145/130881.131213}
+  {\path{doi:10.1145/130881.131213}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/130881.131213}
+
+\bibitem{geiger_three-dimensional_1993}
+B.~Geiger,
+  \href{http://citeseer.uark.edu:8380/citeseerx/viewdoc/summary?doi=10.1.1.56.9652}{Three-dimensional
+  modeling of human organs and its application to diagnosis and surgical
+  planning}, Ph.D. thesis, {INRIA} Tech. Rep. 2105 (1993).
+\newline\urlprefix\url{http://citeseer.uark.edu:8380/citeseerx/viewdoc/summary?doi=10.1.1.56.9652}
+
+\bibitem{jeong_b-spline_1999}
+J.~Jeong, K.~Kim, H.~Park, H.~Cho, M.~Jung,
+  \href{http://link.springer.com/article/10.1007/s001700050145}{B-spline
+  surface approximation to cross-sections using distance maps}, The
+  International Journal of Advanced Manufacturing Technology 15~(12) (1999)
+  876--885.
+\newblock \href {http://dx.doi.org/10.1007/s001700050145}
+  {\path{doi:10.1007/s001700050145}}.
+\newline\urlprefix\url{http://link.springer.com/article/10.1007/s001700050145}
+
 \bibitem{paragios_non-rigid_2003}
 N.~Paragios, M.~Rousson, V.~Ramesh,
   \href{http://www.sciencedirect.com/science/article/pii/S1077314203000109}{Non-rigid
@@ -168,30 +193,5 @@ X.~Huang, N.~Paragios, D.~Metaxas, Shape registration in implicit spaces using
   Analysis and Machine Intelligence 28~(8) (2006) 1303--1318.
 \newblock \href {http://dx.doi.org/10.1109/TPAMI.2006.171}
   {\path{doi:10.1109/TPAMI.2006.171}}.
-
-\bibitem{meyers_surfaces_1992}
-D.~Meyers, S.~Skinner, K.~Sloan,
-  \href{http://doi.acm.org/10.1145/130881.131213}{Surfaces from contours},
-  {ACM} Trans. Graph. 11~(3) (1992) 228–258.
-\newblock \href {http://dx.doi.org/10.1145/130881.131213}
-  {\path{doi:10.1145/130881.131213}}.
-\newline\urlprefix\url{http://doi.acm.org/10.1145/130881.131213}
-
-\bibitem{geiger_three-dimensional_1993}
-B.~Geiger,
-  \href{http://citeseer.uark.edu:8380/citeseerx/viewdoc/summary?doi=10.1.1.56.9652}{Three-dimensional
-  modeling of human organs and its application to diagnosis and surgical
-  planning}, Ph.D. thesis, {INRIA} Tech. Rep. 2105 (1993).
-\newline\urlprefix\url{http://citeseer.uark.edu:8380/citeseerx/viewdoc/summary?doi=10.1.1.56.9652}
-
-\bibitem{jeong_b-spline_1999}
-J.~Jeong, K.~Kim, H.~Park, H.~Cho, M.~Jung,
-  \href{http://link.springer.com/article/10.1007/s001700050145}{B-spline
-  surface approximation to cross-sections using distance maps}, The
-  International Journal of Advanced Manufacturing Technology 15~(12) (1999)
-  876--885.
-\newblock \href {http://dx.doi.org/10.1007/s001700050145}
-  {\path{doi:10.1007/s001700050145}}.
-\newline\urlprefix\url{http://link.springer.com/article/10.1007/s001700050145}
 
 \end{thebibliography}
