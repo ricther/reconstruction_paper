@@ -547,7 +547,8 @@ $\Theta$. For example, we apply these to the upper a layer of the
 pair of the contours, and the deformed upper contour coincides with
 the lower contour. According to \cite{huang_shape_2006}, we can use
 the gradient descent optimization technique to find $\Theta$. The
-energy function consist of the data-driven term and smoothness term.
+energy function [Eq.\ref{formula:energy}] consist of the data-driven term
+[Eq.\ref{formula:data-driven}] and smoothness term [Eq.\ref{formula:smoothness}].
 
 \begin{equation}
 \label{formula:data-driven}
@@ -559,7 +560,7 @@ E_{smoothness}(\Theta)=\iint\limits_D\left( \frac{\partial\delta L(\Theta:\mathb
 \Theta:\mathbf{x})}{\partial y}^2\right) d\mathbf{x}
 \end{equation}
 \begin{equation}
-\label{formual:energy}
+\label{formula:energy}
 \frac{\partial}{\partial \theta} E(\Theta)=\frac{\partial
  }{\partial \theta} E_{data}+\frac{\partial}{\partial \theta} E_{smoothness}
 \end{equation}
@@ -571,7 +572,7 @@ E_{smoothness}(\Theta)=\iint\limits_D\left( \frac{\partial\delta L(\Theta:\mathb
 \caption{}
 \label{fig:FFD_original_2_3}
 \end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 \begin{subfigure}[b]{0.25\textwidth}
 \includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_lattice_2_3.png}
 \caption{}
@@ -583,26 +584,39 @@ E_{smoothness}(\Theta)=\iint\limits_D\left( \frac{\partial\delta L(\Theta:\mathb
 \caption{}
 \label{fig:FFD_transformed_2_3}
 \end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.25\textwidth}
+\includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_correspond_2_3.png}
+\caption{}
+\label{fig:FFD_correspond_2_3}
+\end{subfigure}
+~~~~~~~~~~~~~~~~~~~~~
 \begin{subfigure}[b]{0.25\textwidth}
 \includegraphics[width=\textwidth,height=0.15\textheight]{../picture/FFD_surface_2_3.png}
 \caption{}
-\label{fig:FFD_transformed_2_3}
+\label{fig:FFD_surface_2_3}
 \end{subfigure}
-\caption{Matching based on the FFD. 
+\caption{Matching based on the IFFD. 
   (a) the original contours of a pair, the upper contour (in red), and the lower layer (green line)
   (b) the embedding space of the upper contour.
   (c) Final FFD control lattice configuration depicting the space
   warping to achieve a high degree of resemblance.
-  (d) The surface stitched based on the matching result.}
+  (d) the correspondence of the adjacent contours.
+  (e) The surface stitched based on the matching result.}
+\label{fig:FFD_Result}
 \end{figure}
 
 
+As presented in Fig. \ref{fig:FFD_Result}, the surface is stitched
+based on the correspondence which is obtained by the IFFD
+matching. From fig. \ref{fig:FFD_transformed_2_3} \ref{fig:FFD_correspond_2_3} we
+can see that the correspondence is accurate.
 
-
-\subsection{Branching Problem}
+\subsection{Medial Axis for Branching Problem}
 \label{medial axis}
-The FFD technique is only appropriate for no branching case, In the
+From fig.\ref{fig:FFD_Result}, it can be seen that the advantage of
+the IFFD matching is obviously --- we can achieve a pair of resembled contours like
+fig.\ref{fig:FFD_transformed_2_3}, but defect only appropriate for no branching case, In the
 case of branching, we calculate the medial axis of branching
 contours, and project it on to the adjacent contour, thus we reduce
 the branching problem to one-to-one case.
@@ -614,27 +628,33 @@ region voronoi diagram;medial axis
 \begin{figure}[ht]
 \centering
 \begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/FFD_original_20_21.png}
+\includegraphics[width=\textwidth]{../picture/Medial_original_20_21.png}
 \caption{}
-\label{fig:FFD_original}
+\label{fig:Medial_original_20_21}
 \end{subfigure}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/FFD_Lattice_20_21.png}
+\includegraphics[width=\textwidth]{../picture/Medial_transformed_20_21.png}
 \caption{}
-\label{fig:FFD_Lattice}
+\label{fig:Medial_transformed_20_21}
 \end{subfigure}
 
 \begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/FFD_Result_20_21.png}
+\includegraphics[width=\textwidth]{../picture/Medial_correspond_20_21.png}
 \caption{}
-\label{fig:FFD_Result}
+\label{fig:Medial_correspond_20_21}
 \end{subfigure}
-\caption{Matching based on the FFD. (a)Final FFD control lattice
-  configuration depicting the space warping to achieve local
-  registration. (b)Locally deformed upper layer(in green) covered by the lower
-  layer(in red)}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.25\textwidth}
+\includegraphics[width=\textwidth]{../picture/Medial_surface_20_21.png}
+\caption{}
+\label{fig:Medial_surface_20_21}
+\end{subfigure}
+\caption{Medial Axis for the branching problem: (a) the original
+  contours. (b) the transformed contours with the medial axis. (c) the
+correspondence of the contours. (d) the surface stitched based on the correspondence}
 \end{figure}
+
 
 \section{Results and Discussions}
 \label{section4}
