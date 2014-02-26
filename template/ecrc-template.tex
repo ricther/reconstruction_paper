@@ -191,7 +191,6 @@
 %% Start line numbering here if you want
 %%
 % \linenumbers
-
 %% main text
 \section{Introduction}
 \label{section1}
@@ -544,7 +543,7 @@ L(\Theta:\mathbf{x})=\mathbf{x}+\sum\limits_{k=0}^{3}\sum\limits_{l=0}^{3}B_k(u)
 With the definition of deformation, how to deform one contour to
 another one is equivalent to finding the control lattice deformation
 $\Theta$. For example, we apply these to the upper a layer of the
-pair of the contours, and the deformed upper contour coincides with
+pair of the contours, and deformed the upper contour to  coincides with
 the lower contour. According to \cite{huang_shape_2006}, we can use
 the gradient descent optimization technique to find $\Theta$. The
 energy function [Eq.\ref{formula:energy}] consist of the data-driven term
@@ -610,13 +609,17 @@ E_{smoothness}(\Theta)=\iint\limits_D\left( \frac{\partial\delta L(\Theta:\mathb
 As presented in Fig. \ref{fig:FFD_Result}, the surface is stitched
 based on the correspondence which is obtained by the IFFD
 matching. From fig. \ref{fig:FFD_transformed_2_3} \ref{fig:FFD_correspond_2_3} we
-can see that the correspondence is accurate.
+can see that the correspondence is satisfied.
 
 \subsection{Medial Axis for Branching Problem}
 \label{medial axis}
+
 From fig.\ref{fig:FFD_Result}, it can be seen that the advantage of
-the IFFD matching is obviously --- we can achieve a pair of resembled contours like
-fig.\ref{fig:FFD_transformed_2_3}, but defect only appropriate for no branching case, In the
+the technique above is obviously --- we can achieve a pair of resembled contours like
+fig.\ref{fig:FFD_transformed_2_3}; But defect is obviously too, it is
+only appropriate for no branching case, since the upper contour will
+be transformed as same as the lower contour finally, but which should
+only be as same as the partial of lower the contour. In the
 case of branching, we calculate the medial axis of branching
 contours, and project it on to the adjacent contour, thus we reduce
 the branching problem to one-to-one case.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.9)  17 JAN 2014 14:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.24)  25 FEB 2014 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,7 +979,7 @@ Missing character: There is no “ in font txr!
 ) [7] (./ecrc-template.aux) ) 
 Here is how much of TeX's memory you used:
  5460 strings out of 495031
- 79480 string characters out of 6181532
+ 79480 string characters out of 6181531
  141269 words of memory out of 5000000
  8511 multiletter control sequences out of 15000+600000
  37638 words of font info for 84 fonts, out of 8000000 for 9000
