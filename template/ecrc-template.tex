@@ -616,17 +616,97 @@ can see that the correspondence is satisfied.
 
 From fig.\ref{fig:FFD_Result}, it can be seen that the advantage of
 the technique above is obviously --- we can achieve a pair of resembled contours like
-fig.\ref{fig:FFD_transformed_2_3}; But defect is obviously too, it is
+fig.\ref{fig:FFD_transformed_2_3}; But the defect is obviously too, it is
 only appropriate for no branching case, since the upper contour will
-be transformed as same as the lower contour finally, but which should
-only be as same as the partial of lower the contour. In the
-case of branching, we calculate the medial axis of branching
-contours, and project it on to the adjacent contour, thus we reduce
-the branching problem to one-to-one case.
+be transformed as same as the lower contour depend on the energy
+function, one illustrative example is shown in fig. \ref{fig:branches
+  without medial axis}. A synthetic shape was shown in
+fig.\ref{fig:branches without medial axis}, the shape represents a
+classic branches problem, the upper layer contains two contours (both
+are circles), and the lower layer contains one contour is an
+ellipse. A intersection (fig.\ref{fig:circle_ellipse_transformed}---\ref{fig:circle_ellipse_surface}) is
+introduced by the transform when we calculate the correspondence,
+which is unexpected in the most time. 
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_original_points.png}
+\caption{}
+\label{fig:circle_ellipse_original_points}
+\end{subfigure}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_transformed.png}
+\caption{}
+\label{fig:circle_ellipse_transformed}
+\end{subfigure}
+
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_correspondence.png}
+\caption{}
+\label{fig:circle_ellipse_correspondence}
+\end{subfigure}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_surface.png}
+\caption{}
+\label{fig:circle_ellipse_surface}
+\end{subfigure}
+\caption{The reconstruction of the branches: (a) the original points,
+  upper layer contours in green, and lower layer contours in red; (b)
+  the contours after be transformed; (c) the correspondence (d) the
+  surface}
+\label{fig:branches without medial axis}
+\end{figure}
 
 
+In order to avoid the appearance shown above, we introduce the medial axis to deal
+with the branching problem. As we explained above, the key point of
+the IFFD marching is the distance transform, the processing of
+transformation is mostly depending on the distance transform. So we use the
+medial axis to separate the lower layer. Generally, the lower layer
+will be divide into the same parts as upper layers.
 
-region voronoi diagram;medial axis
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_original_points.png}
+\caption{}
+\label{fig:circle_ellipse_meidal_original_points}
+\end{subfigure}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_transformed.png}
+\caption{}
+\label{fig:circle_ellipse_medial_transformed}
+\end{subfigure}
+
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_correspondence.png}
+\caption{}
+\label{fig:circle_ellipse_medial_correspondence}
+\end{subfigure}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_surface.png}
+\caption{}
+\label{fig:circle_ellipse_medial_surface}
+\end{subfigure}
+\caption{The reconstruction of the branches with medial axes: (a) the original points,
+  upper layer contours (in green), and lower layer contours (in red); (b)
+  the contours after be transformed, the medial axes (the red points); (c) the correspondence (d) the
+  surface}
+\label{fig:branches with medial axes}
+\end{figure}
+
+As fig.\ref{fig:branches with medial axes} shown, the medial axes of
+upper layer  (fig.\ref{fig:circle_ellipse_medial_transformed} red
+points) is first calculated, and then project the medial axes into the
+lower layer inner-contour section, finally we recalculate the distance
+map of the lower layer, until now we can apply the reconstruction
+based on IFFD technique as usual. The result is more naturally, see
+fig.\ref{fig:circle_ellipse_medial_correspondence},\ref{fig:circle_ellipse_medial_surface}.
 
 \begin{figure}[ht]
 \centering
@@ -655,7 +735,9 @@ region voronoi diagram;medial axis
 \end{subfigure}
 \caption{Medial Axis for the branching problem: (a) the original
   contours. (b) the transformed contours with the medial axis. (c) the
-correspondence of the contours. (d) the surface stitched based on the correspondence}
+correspondence of the contours. (d) the surface stitched based on the
+correspondence}
+
 \end{figure}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.24)  25 FEB 2014 09:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.24)  28 FEB 2014 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -714,42 +714,42 @@ File: utxsyc.fd 2000/12/15 v3.1
 File: ../picture/global.png Graphic file (type png)
 
 <use ../picture/global.png>
-Package pdftex.def Info: ../picture/global.png used on input line 261.
+Package pdftex.def Info: ../picture/global.png used on input line 260.
 (pdftex.def)             Requested size: 93.59857pt x 67.11653pt.
 
 <../picture/local.png, id=2, 454.69875pt x 326.21875pt>
 File: ../picture/local.png Graphic file (type png)
 
 <use ../picture/local.png>
-Package pdftex.def Info: ../picture/local.png used on input line 268.
+Package pdftex.def Info: ../picture/local.png used on input line 267.
 (pdftex.def)             Requested size: 93.59857pt x 67.14905pt.
 
 <elsevier-logo-3p.pdf, id=3, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 289.
+Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 288.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
  <SDlogo-3p.pdf, id=4, 169.8345pt x 33.9669pt>
 File: SDlogo-3p.pdf Graphic file (type pdf)
 
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf used on input line 289.
+Package pdftex.def Info: SDlogo-3p.pdf used on input line 288.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 289
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 288
 .
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 289.
+(Font)              scaled to size 17.09995pt on input line 288.
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
  <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 289.
+Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 288.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: SDlogo-3p.pdf Graphic file (type pdf)
  <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf used on input line 289.
+Package pdftex.def Info: SDlogo-3p.pdf used on input line 288.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -768,14 +768,14 @@ File: ../picture/bridge-non-conflict.png Graphic file (type png)
 
 <use ../picture/bridge-non-conflict.png>
 Package pdftex.def Info: ../picture/bridge-non-conflict.png used on input line 
-328.
+327.
 (pdftex.def)             Requested size: 93.59857pt x 68.57205pt.
 
 <../picture/bridge-conflict.png, id=25, 385.44pt x 302.12875pt>
 File: ../picture/bridge-conflict.png Graphic file (type png)
 
 <use ../picture/bridge-conflict.png>
-Package pdftex.def Info: ../picture/bridge-conflict.png used on input line 335.
+Package pdftex.def Info: ../picture/bridge-conflict.png used on input line 334.
 
 (pdftex.def)             Requested size: 93.59857pt x 73.36525pt.
 
@@ -783,35 +783,35 @@ Package pdftex.def Info: ../picture/bridge-conflict.png used on input line 335.
 File: ../picture/branch-contour.png Graphic file (type png)
 
 <use ../picture/branch-contour.png>
-Package pdftex.def Info: ../picture/branch-contour.png used on input line 367.
+Package pdftex.def Info: ../picture/branch-contour.png used on input line 366.
 (pdftex.def)             Requested size: 70.19714pt x 71.19647pt.
 
 <../picture/branch-hull.png, id=27, 173.64874pt x 263.98625pt>
 File: ../picture/branch-hull.png Graphic file (type png)
 
 <use ../picture/branch-hull.png>
-Package pdftex.def Info: ../picture/branch-hull.png used on input line 374.
+Package pdftex.def Info: ../picture/branch-hull.png used on input line 373.
 (pdftex.def)             Requested size: 46.80286pt x 71.15236pt.
 
 <../picture/branch-bridge.png, id=28, 169.63374pt x 253.94875pt>
 File: ../picture/branch-bridge.png Graphic file (type png)
 
 <use ../picture/branch-bridge.png>
-Package pdftex.def Info: ../picture/branch-bridge.png used on input line 380.
+Package pdftex.def Info: ../picture/branch-bridge.png used on input line 379.
 (pdftex.def)             Requested size: 46.80286pt x 70.06279pt.
 
 <../picture/branch-but.png, id=29, 167.62625pt x 248.93pt>
 File: ../picture/branch-but.png Graphic file (type png)
 
 <use ../picture/branch-but.png>
-Package pdftex.def Info: ../picture/branch-but.png used on input line 386.
+Package pdftex.def Info: ../picture/branch-but.png used on input line 385.
 (pdftex.def)             Requested size: 46.80286pt x 69.5024pt.
 
 <../picture/branch-middle.png, id=30, 172.645pt x 252.945pt>
 File: ../picture/branch-middle.png Graphic file (type png)
 
 <use ../picture/branch-middle.png>
-Package pdftex.def Info: ../picture/branch-middle.png used on input line 392.
+Package pdftex.def Info: ../picture/branch-middle.png used on input line 391.
 (pdftex.def)             Requested size: 46.80286pt x 68.57008pt.
  [2 <../picture/global.png> <../picture/local.png> <../picture/bridge-non-confl
 ict.png> <../picture/bridge-conflict.png>]
@@ -819,58 +819,58 @@ ict.png> <../picture/bridge-conflict.png>]
 File: ../picture/fluent.png Graphic file (type png)
 
 <use ../picture/fluent.png>
-Package pdftex.def Info: ../picture/fluent.png used on input line 437.
+Package pdftex.def Info: ../picture/fluent.png used on input line 436.
 (pdftex.def)             Requested size: 234.0pt x 136.62526pt.
  [3 <../picture/branch-contour.png> <../picture/branch-hull.png> <../picture/br
 anch-bridge.png> <../picture/branch-but.png> <../picture/branch-middle.png> <..
 /picture/fluent.png>]
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 499.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 498.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 499
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 498
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 506.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 505.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 506
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 505
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 508.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 508
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 507
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 508.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 508
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 507
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 508.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 508
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 507
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 508.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 508
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 507
 .
 
 [4] <../picture/FFD_original_2_3.png, id=44, 1184.425pt x 1053.9375pt>
 File: ../picture/FFD_original_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_original_2_3.png>
-Package pdftex.def Info: ../picture/FFD_original_2_3.png used on input line 571
+Package pdftex.def Info: ../picture/FFD_original_2_3.png used on input line 570
 .
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
@@ -878,7 +878,7 @@ Package pdftex.def Info: ../picture/FFD_original_2_3.png used on input line 571
 File: ../picture/FFD_lattice_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_lattice_2_3.png>
-Package pdftex.def Info: ../picture/FFD_lattice_2_3.png used on input line 577.
+Package pdftex.def Info: ../picture/FFD_lattice_2_3.png used on input line 576.
 
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
@@ -887,7 +887,7 @@ File: ../picture/FFD_transformed_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_transformed_2_3.png>
 Package pdftex.def Info: ../picture/FFD_transformed_2_3.png used on input line 
-583.
+582.
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
 <../picture/FFD_correspond_2_3.png, id=47, 1253.68375pt x 1053.9375pt>
@@ -895,51 +895,133 @@ File: ../picture/FFD_correspond_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_correspond_2_3.png>
 Package pdftex.def Info: ../picture/FFD_correspond_2_3.png used on input line 5
-89.
+88.
 (pdftex.def)             Requested size: 116.99693pt x 93.29034pt.
 
 <../picture/FFD_surface_2_3.png, id=48, 1184.425pt x 1053.9375pt>
 File: ../picture/FFD_surface_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_surface_2_3.png>
-Package pdftex.def Info: ../picture/FFD_surface_2_3.png used on input line 595.
+Package pdftex.def Info: ../picture/FFD_surface_2_3.png used on input line 594.
 
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
-<../picture/Medial_original_20_21.png, id=49, 1053.9375pt x 1053.9375pt>
+<../picture/circle_ellipse_original_points.png, id=49, 1445.4pt x 872.25874pt>
+File: ../picture/circle_ellipse_original_points.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_original_points.png>
+Package pdftex.def Info: ../picture/circle_ellipse_original_points.png used on 
+input line 634.
+(pdftex.def)             Requested size: 187.19714pt x 112.95839pt.
+
+<../picture/circle_ellipse_transformed.png, id=50, 1445.4pt x 881.2925pt>
+File: ../picture/circle_ellipse_transformed.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_transformed.png>
+Package pdftex.def Info: ../picture/circle_ellipse_transformed.png used on inpu
+t line 640.
+(pdftex.def)             Requested size: 187.19714pt x 114.12828pt.
+
+<../picture/circle_ellipse_correspondence.png, id=51, 1445.4pt x 881.2925pt>
+File: ../picture/circle_ellipse_correspondence.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_correspondence.png>
+Package pdftex.def Info: ../picture/circle_ellipse_correspondence.png used on i
+nput line 646.
+(pdftex.def)             Requested size: 187.19714pt x 114.12828pt.
+
+<../picture/circle_ellipse_surface.png, id=52, 1445.4pt x 877.2775pt>
+File: ../picture/circle_ellipse_surface.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_surface.png>
+Package pdftex.def Info: ../picture/circle_ellipse_surface.png used on input li
+ne 652.
+(pdftex.def)             Requested size: 187.19714pt x 113.60832pt.
+File: ../picture/circle_ellipse_original_points.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_original_points.png>
+Package pdftex.def Info: ../picture/circle_ellipse_original_points.png used on 
+input line 674.
+(pdftex.def)             Requested size: 187.19714pt x 112.95839pt.
+
+<../picture/circle_ellipse_medial_transformed.png, id=53, 1445.4pt x 875.27pt>
+File: ../picture/circle_ellipse_medial_transformed.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_medial_transformed.png>
+Package pdftex.def Info: ../picture/circle_ellipse_medial_transformed.png used 
+on input line 680.
+(pdftex.def)             Requested size: 187.19714pt x 113.34836pt.
+
+<../picture/circle_ellipse_medial_correspondence.png, id=54, 1445.4pt x 876.273
+74pt>
+File: ../picture/circle_ellipse_medial_correspondence.png Graphic file (type pn
+g)
+ <use ../picture/circle_ellipse_medial_correspondence.png>
+Package pdftex.def Info: ../picture/circle_ellipse_medial_correspondence.png us
+ed on input line 686.
+(pdftex.def)             Requested size: 187.19714pt x 113.47833pt.
+
+<../picture/circle_ellipse_medial_surface.png, id=55, 1445.4pt x 875.27pt>
+File: ../picture/circle_ellipse_medial_surface.png Graphic file (type png)
+
+<use ../picture/circle_ellipse_medial_surface.png>
+Package pdftex.def Info: ../picture/circle_ellipse_medial_surface.png used on i
+nput line 692.
+(pdftex.def)             Requested size: 187.19714pt x 113.34836pt.
+
+<../picture/Medial_original_20_21.png, id=56, 1053.9375pt x 1053.9375pt>
 File: ../picture/Medial_original_20_21.png Graphic file (type png)
 
 <use ../picture/Medial_original_20_21.png>
 Package pdftex.def Info: ../picture/Medial_original_20_21.png used on input lin
-e 631.
+e 714.
 (pdftex.def)             Requested size: 117.0pt x 116.99487pt.
 
-<../picture/Medial_transformed_20_21.png, id=50, 1053.9375pt x 1053.9375pt>
+<../picture/Medial_transformed_20_21.png, id=57, 1053.9375pt x 1053.9375pt>
 File: ../picture/Medial_transformed_20_21.png Graphic file (type png)
 
 <use ../picture/Medial_transformed_20_21.png>
 Package pdftex.def Info: ../picture/Medial_transformed_20_21.png used on input 
-line 637.
+line 720.
 (pdftex.def)             Requested size: 117.0pt x 116.99487pt.
 
-<../picture/Medial_correspond_20_21.png, id=51, 1053.9375pt x 1053.9375pt>
+<../picture/Medial_correspond_20_21.png, id=58, 1053.9375pt x 1053.9375pt>
 File: ../picture/Medial_correspond_20_21.png Graphic file (type png)
 
 <use ../picture/Medial_correspond_20_21.png>
 Package pdftex.def Info: ../picture/Medial_correspond_20_21.png used on input l
-ine 643.
+ine 726.
 (pdftex.def)             Requested size: 117.0pt x 116.99487pt.
 
-<../picture/Medial_surface_20_21.png, id=52, 1053.9375pt x 1053.9375pt>
+<../picture/Medial_surface_20_21.png, id=59, 1053.9375pt x 1053.9375pt>
 File: ../picture/Medial_surface_20_21.png Graphic file (type png)
 
 <use ../picture/Medial_surface_20_21.png>
 Package pdftex.def Info: ../picture/Medial_surface_20_21.png used on input line
- 649.
+ 732.
 (pdftex.def)             Requested size: 117.0pt x 116.99487pt.
- (./ecrc-template.bbl [5 <../picture/FFD_original_2_3.png> <../picture/FFD_latt
-ice_2_3.png> <../picture/FFD_transformed_2_3.png> <../picture/FFD_correspond_2_
-3.png> <../picture/FFD_surface_2_3.png>]
+ [5 <../picture/FFD_original_2_3.png> <../picture/FFD_lattice_2_3.png> <../pict
+ure/FFD_transformed_2_3.png> <../picture/FFD_correspond_2_3.png> <../picture/FF
+D_surface_2_3.png>]
+(./ecrc-template.bbl
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+ [6 <../picture/circle_ellipse_original_points.png> <../picture/circle_ellipse_
+transformed.png> <../picture/circle_ellipse_correspondence.png> <../picture/cir
+cle_ellipse_surface.png>]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -958,30 +1040,16 @@ Missing character: There is no “ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
- [6 <../picture/Medial_original_20_21.png> <../picture/Medial_transformed_20_21
-.png> <../picture/Medial_correspond_20_21.png> <../picture/Medial_surface_20_21
-.png>]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-) [7] (./ecrc-template.aux) ) 
+ [7 <../picture/circle_ellipse_medial_transformed.png> <../picture/circle_ellip
+se_medial_correspondence.png> <../picture/circle_ellipse_medial_surface.png>]) 
+[8 <../picture/Medial_original_20_21.png> <../picture/Medial_transformed_20_21.
+png> <../picture/Medial_correspond_20_21.png> <../picture/Medial_surface_20_21.
+png>] (./ecrc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 5460 strings out of 495031
- 79480 string characters out of 6181531
- 141269 words of memory out of 5000000
- 8511 multiletter control sequences out of 15000+600000
+ 5513 strings out of 495031
+ 81763 string characters out of 6181531
+ 146421 words of memory out of 5000000
+ 8557 multiletter control sequences out of 15000+600000
  37638 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,12n,40p,523b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -995,10 +1063,10 @@ blic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (7 pages, 840277 bytes).
+Output written on ecrc-template.pdf (8 pages, 1103389 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
