@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{OVERVIEW OF PREVIOUS APPROACHES}{}% 2
+\BOOKMARK [1][-]{section.3}{Reconstruction Based on the FFD Matching}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{overview of our approach}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Data Acquisition}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Matching Contour Based on the Free-Form Deformation}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Medial Axis for Branching Problem}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Results and Discussions}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Capping Region Problem}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Accurate Reconstruction of Organs}{section.4}% 10

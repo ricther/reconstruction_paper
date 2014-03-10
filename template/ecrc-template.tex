@@ -42,6 +42,8 @@
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage{amsmath}
+\usepackage{floatrow}
+\usepackage{hyperref}
 %% The ecrc package defines commands needed for running heads and logos.
 %% For running heads, you can set the journal name, the volume, the starting page and the authors
 
@@ -221,7 +223,7 @@ surface fitting. The correspondence problem can subdivide into two steps,
 global correspondence and local correspondence. Global correspondence
 decides the portions connection, and solves the branching
 problem (many-to-many case), sometimes the branching problem is
-considered as a independent problem Fig. \ref{fig:global}. And the local
+considered as a independent problem Fig.\ref{fig:global}. And the local
 correspondence(also called the tiling problem) decide how
 to stitch the adjacent corresponding contours together,like
 Fig. \ref{fig:local}. An automatic solution of the correspondence is
@@ -619,88 +621,92 @@ the technique above is obviously --- we can achieve a pair of resembled contours
 fig.\ref{fig:FFD_transformed_2_3}; But the defect is obviously too, it is
 only appropriate for no branching case, since the upper contour will
 be transformed as same as the lower contour depend on the energy
-function, one illustrative example is shown in fig. \ref{fig:branches
-  without medial axis}. A synthetic shape was shown in
-fig.\ref{fig:branches without medial axis}, the shape represents a
+function, illustrative examples is shown in fig. \ref{fig:synthetic data for branches}. A synthetic shape was shown in
+fig.\ref{fig:synthetic data for branches}, the shape represents a
 classic branches problem, the upper layer contains two contours (both
 are circles), and the lower layer contains one contour is an
-ellipse. A intersection (fig.\ref{fig:circle_ellipse_transformed}---\ref{fig:circle_ellipse_surface}) is
+ellipse. A intersection (fig.\ref{fig:synthetic data for branches}(1)(b) is
 introduced by the transform when we calculate the correspondence,
 which is unexpected in the most time. 
 
-\begin{figure}[ht]
+\begin{figure}[h]
 \centering
-\begin{subfigure}[b]{0.4\textwidth}
+\begin{subfigure}[b]{0.18\textwidth}
+1)$
+\begin{array}{l}
 \includegraphics[width=\textwidth]{../picture/circle_ellipse_original_points.png}
-\caption{}
+\end{array}$
 \label{fig:circle_ellipse_original_points}
 \end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\begin{subfigure}[b]{0.4\textwidth}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
 \includegraphics[width=\textwidth]{../picture/circle_ellipse_transformed.png}
-\caption{}
+\end{array}$
 \label{fig:circle_ellipse_transformed}
 \end{subfigure}
-
-\begin{subfigure}[b]{0.4\textwidth}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
 \includegraphics[width=\textwidth]{../picture/circle_ellipse_correspondence.png}
-\caption{}
+\end{array}$
 \label{fig:circle_ellipse_correspondence}
 \end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\begin{subfigure}[b]{0.4\textwidth}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
 \includegraphics[width=\textwidth]{../picture/circle_ellipse_surface.png}
-\caption{}
+\end{array}$
 \label{fig:circle_ellipse_surface}
 \end{subfigure}
-\caption{The reconstruction of the branches: (a) the original points,
-  upper layer contours in green, and lower layer contours in red; (b)
-  the contours after be transformed; (c) the correspondence (d) the
-  surface}
-\label{fig:branches without medial axis}
+
+\begin{subfigure}[b]{0.18\textwidth}
+2)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_original_points.png}
+\end{array}$
+\label{fig:circle_ellipse_meidal_original_points}
+\centerline{~~~~~~~~~(a)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_transformed.png}
+\end{array}$
+\label{fig:circle_ellipse_medial_transformed}
+\centerline{~~~~(b)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_correspondence.png}
+\end{array}$
+\label{fig:circle_ellipse_medial_correspondence}
+\centerline{~~~~(c)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_surface.png}
+\end{array}$
+\label{fig:circle_ellipse_medial_surface}
+\centerline{~~~~(d)}
+\end{subfigure}
+\caption{A synthetic dataset with branches. 1) reconstruct without medial
+axes, 2) reconstruction with medial axes. (a) the original contours,
+(b) contours after IFFD, (c) Established correspondences after IFFD,
+(d) the final surfaces}
+\label{fig:synthetic data for branches}
 \end{figure}
 
-
-In order to avoid the appearance shown above, we introduce the medial axis to deal
-with the branching problem. As we explained above, the key point of
-the IFFD marching is the distance transform, the processing of
+In order to avoid the appearance shown above, we introduce the medial
+axis to deal with the branching problem. As we explained above, the
+key point of the IFFD marching is the distance transform, the processing of
 transformation is mostly depending on the distance transform. So we use the
 medial axis to separate the lower layer. Generally, the lower layer
 will be divide into the same parts as upper layers.
 
-\begin{figure}[ht]
-\centering
-\begin{subfigure}[b]{0.4\textwidth}
-\includegraphics[width=\textwidth]{../picture/circle_ellipse_original_points.png}
-\caption{}
-\label{fig:circle_ellipse_meidal_original_points}
-\end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\begin{subfigure}[b]{0.4\textwidth}
-\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_transformed.png}
-\caption{}
-\label{fig:circle_ellipse_medial_transformed}
-\end{subfigure}
-
-\begin{subfigure}[b]{0.4\textwidth}
-\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_correspondence.png}
-\caption{}
-\label{fig:circle_ellipse_medial_correspondence}
-\end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\begin{subfigure}[b]{0.4\textwidth}
-\includegraphics[width=\textwidth]{../picture/circle_ellipse_medial_surface.png}
-\caption{}
-\label{fig:circle_ellipse_medial_surface}
-\end{subfigure}
-\caption{The reconstruction of the branches with medial axes: (a) the original points,
-  upper layer contours (in green), and lower layer contours (in red); (b)
-  the contours after be transformed, the medial axes (the red points); (c) the correspondence (d) the
-  surface}
-\label{fig:branches with medial axes}
-\end{figure}
-
-As fig.\ref{fig:branches with medial axes} shown, the medial axes of
+As fig.\ref{fig:synthetic data for branches} shown, the medial axes of
 upper layer  (fig.\ref{fig:circle_ellipse_medial_transformed} red
 points) is first calculated, and then project the medial axes into the
 lower layer inner-contour section, finally we recalculate the distance
@@ -708,37 +714,78 @@ map of the lower layer, until now we can apply the reconstruction
 based on IFFD technique as usual. The result is more naturally, see
 fig.\ref{fig:circle_ellipse_medial_correspondence},\ref{fig:circle_ellipse_medial_surface}.
 
-\begin{figure}[ht]
+\begin{figure}[h]
 \centering
-\begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/Medial_original_20_21.png}
-\caption{}
-\label{fig:Medial_original_20_21}
+\begin{subfigure}[b]{0.15\textwidth}
+1)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_original_19_20.png}
+\end{array}$
+\label{fig:Medial_original_19_20}
 \end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/Medial_transformed_20_21.png}
-\caption{}
-\label{fig:Medial_transformed_20_21}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.15\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_non_axes_transformed_19_20.png}
+\end{array}$
+\label{fig:Medial_non_axes_transformed_19_20}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.15\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_non_axes_correspondence_19_20.png}
+\end{array}$
+\label{fig:Medial_non_axes_correspondence_19_20}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.15\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_non_axes_surface_19_20.png}
+\end{array}$
+\label{fig:Medial_non_axes_19_20}
 \end{subfigure}
 
-\begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/Medial_correspond_20_21.png}
-\caption{}
-\label{fig:Medial_correspond_20_21}
+\begin{subfigure}[b]{0.15\textwidth}
+2)$
+\begin{array}{l}
+{\includegraphics[width=\textwidth]{../picture/Medial_original_19_20.png}}
+\end{array}$
+\label{fig:Medial_original_19_20}
+\centerline{~~~~~~~~~(a)}
 \end{subfigure}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\begin{subfigure}[b]{0.25\textwidth}
-\includegraphics[width=\textwidth]{../picture/Medial_surface_20_21.png}
-\caption{}
-\label{fig:Medial_surface_20_21}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.15\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_transformed_19_20.png}
+\end{array}$
+\label{fig:Medial_transformed_19_20}
+\centerline{~~~~(b)}
 \end{subfigure}
-\caption{Medial Axis for the branching problem: (a) the original
-  contours. (b) the transformed contours with the medial axis. (c) the
-correspondence of the contours. (d) the surface stitched based on the
-correspondence}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.15\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_correspondence_19_20.png}
+\end{array}$
+\label{fig:Medial_correspondence_19_20}
+\centerline{~~~~(c)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.15\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Medial_surface_19_20.png}
+\end{array}$
+\label{fig:Medial_surface_19_20}
+\centerline{~~~~(d)}
+\end{subfigure}
+\caption{A real dataset with branches. (1) reconstruction without
+  medial axes, (2) reconstruction with medial axes. (a) the original
+  contours, (b) the contours after IFFD, (c) Established
+  correspondence after IFFD, (d) The final surfaces }
 
 \end{figure}
+
+
+
 
 
 \section{Results and Discussions}
@@ -759,7 +806,7 @@ lattice distance and the points intensity.
 %%
 
 %% References with BibTeX database:
-
+\clearpage
 \bibliographystyle{elsarticle-num}
 \bibliography{reference}
 
