@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.4)  5 MAR 2014 10:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.4)  16 APR 2014 08:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,44 +699,44 @@ LaTeX Warning: Label `sub@fig:Medial_original_19_20' multiply defined.
 )
 \openout1 = `ecrc-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 135.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 135
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 136.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 136
 .
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 135
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 136.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 136
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 135
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 136.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 136
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 135.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 136.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 136.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 135.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 136.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
@@ -822,7 +822,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 136.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -832,39 +832,39 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
+LaTeX Info: Redefining \ref on input line 136.
+LaTeX Info: Redefining \pageref on input line 136.
+LaTeX Info: Redefining \nameref on input line 136.
 
 (./ecrc-template.out) (./ecrc-template.out)
 \@outlinefile=\write4
 \openout4 = `ecrc-template.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 178.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 179.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <9> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 178.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 190.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 179.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 191.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 190.
+LaTeX Font Info:    Try loading font information for U+msa on input line 191.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 190.
+LaTeX Font Info:    Try loading font information for U+msb on input line 191.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 190.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 191.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
@@ -874,42 +874,42 @@ File: utxsyc.fd 2000/12/15 v3.1
 File: ../picture/global.png Graphic file (type png)
 
 <use ../picture/global.png>
-Package pdftex.def Info: ../picture/global.png used on input line 262.
+Package pdftex.def Info: ../picture/global.png used on input line 263.
 (pdftex.def)             Requested size: 93.59857pt x 67.11653pt.
 
 <../picture/local.png, id=51, 454.69875pt x 326.21875pt>
 File: ../picture/local.png Graphic file (type png)
 
 <use ../picture/local.png>
-Package pdftex.def Info: ../picture/local.png used on input line 269.
+Package pdftex.def Info: ../picture/local.png used on input line 270.
 (pdftex.def)             Requested size: 93.59857pt x 67.14905pt.
 
 <elsevier-logo-3p.pdf, id=55, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 290.
+Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 291.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
  <SDlogo-3p.pdf, id=56, 169.8345pt x 33.9669pt>
 File: SDlogo-3p.pdf Graphic file (type pdf)
 
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf used on input line 290.
+Package pdftex.def Info: SDlogo-3p.pdf used on input line 291.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 290
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 291
 .
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 290.
+(Font)              scaled to size 17.09995pt on input line 291.
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
  <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 290.
+Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 291.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: SDlogo-3p.pdf Graphic file (type pdf)
  <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf used on input line 290.
+Package pdftex.def Info: SDlogo-3p.pdf used on input line 291.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -928,14 +928,14 @@ File: ../picture/bridge-non-conflict.png Graphic file (type png)
 
 <use ../picture/bridge-non-conflict.png>
 Package pdftex.def Info: ../picture/bridge-non-conflict.png used on input line 
-329.
+330.
 (pdftex.def)             Requested size: 93.59857pt x 68.57205pt.
 
 <../picture/bridge-conflict.png, id=94, 385.44pt x 302.12875pt>
 File: ../picture/bridge-conflict.png Graphic file (type png)
 
 <use ../picture/bridge-conflict.png>
-Package pdftex.def Info: ../picture/bridge-conflict.png used on input line 336.
+Package pdftex.def Info: ../picture/bridge-conflict.png used on input line 337.
 
 (pdftex.def)             Requested size: 93.59857pt x 73.36525pt.
 
@@ -943,54 +943,50 @@ Package pdftex.def Info: ../picture/bridge-conflict.png used on input line 336.
 File: ../picture/branch-contour.png Graphic file (type png)
 
 <use ../picture/branch-contour.png>
-Package pdftex.def Info: ../picture/branch-contour.png used on input line 368.
+Package pdftex.def Info: ../picture/branch-contour.png used on input line 369.
 (pdftex.def)             Requested size: 70.19714pt x 71.19647pt.
 
 <../picture/branch-hull.png, id=108, 173.64874pt x 263.98625pt>
 File: ../picture/branch-hull.png Graphic file (type png)
 
 <use ../picture/branch-hull.png>
-Package pdftex.def Info: ../picture/branch-hull.png used on input line 375.
+Package pdftex.def Info: ../picture/branch-hull.png used on input line 376.
 (pdftex.def)             Requested size: 46.80286pt x 71.15236pt.
 
 <../picture/branch-bridge.png, id=109, 169.63374pt x 253.94875pt>
 File: ../picture/branch-bridge.png Graphic file (type png)
 
 <use ../picture/branch-bridge.png>
-Package pdftex.def Info: ../picture/branch-bridge.png used on input line 381.
+Package pdftex.def Info: ../picture/branch-bridge.png used on input line 382.
 (pdftex.def)             Requested size: 46.80286pt x 70.06279pt.
 
 <../picture/branch-but.png, id=110, 167.62625pt x 248.93pt>
 File: ../picture/branch-but.png Graphic file (type png)
 
 <use ../picture/branch-but.png>
-Package pdftex.def Info: ../picture/branch-but.png used on input line 387.
+Package pdftex.def Info: ../picture/branch-but.png used on input line 388.
 (pdftex.def)             Requested size: 46.80286pt x 69.5024pt.
 
 <../picture/branch-middle.png, id=111, 172.645pt x 252.945pt>
 File: ../picture/branch-middle.png Graphic file (type png)
 
 <use ../picture/branch-middle.png>
-Package pdftex.def Info: ../picture/branch-middle.png used on input line 393.
+Package pdftex.def Info: ../picture/branch-middle.png used on input line 394.
 (pdftex.def)             Requested size: 46.80286pt x 68.57008pt.
  [2 <../picture/global.png> <../picture/local.png> <../picture/bridge-non-confl
 ict.png> <../picture/bridge-conflict.png>]
+
+LaTeX Warning: Reference `capping region' on page 3 undefined on input line 437
+.
+
 <../picture/fluent.png, id=139, 759.83875pt x 443.6575pt>
 File: ../picture/fluent.png Graphic file (type png)
 
 <use ../picture/fluent.png>
-Package pdftex.def Info: ../picture/fluent.png used on input line 438.
+Package pdftex.def Info: ../picture/fluent.png used on input line 445.
 (pdftex.def)             Requested size: 234.0pt x 136.62526pt.
  [3 <../picture/branch-contour.png> <../picture/branch-hull.png> <../picture/br
-anch-bridge.png> <../picture/branch-but.png> <../picture/branch-middle.png> <..
-/picture/fluent.png>]
-
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 500.
-
-
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 500
-.
-
+anch-bridge.png> <../picture/branch-but.png> <../picture/branch-middle.png>]
 
 LaTeX Font Warning: Command \boldmath invalid in math mode on input line 507.
 
@@ -999,315 +995,525 @@ LaTeX Font Warning: Command \mathversion invalid in math mode on input line 507
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 509.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 514.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 509
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 514
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 509.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 516.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 509
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 516
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 509.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 516.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 509
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 516
 .
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 509.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 516.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 509
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 516
 .
 
-[4] <../picture/FFD_original_2_3.png, id=181, 1184.425pt x 1053.9375pt>
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 516.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 516
+.
+
+[4 <../picture/fluent.png>]
+<../picture/FFD_original_2_3.png, id=178, 1184.425pt x 1053.9375pt>
 File: ../picture/FFD_original_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_original_2_3.png>
-Package pdftex.def Info: ../picture/FFD_original_2_3.png used on input line 572
+Package pdftex.def Info: ../picture/FFD_original_2_3.png used on input line 579
 .
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
-<../picture/FFD_lattice_2_3.png, id=182, 1184.425pt x 1053.9375pt>
+<../picture/FFD_lattice_2_3.png, id=179, 1184.425pt x 1053.9375pt>
 File: ../picture/FFD_lattice_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_lattice_2_3.png>
-Package pdftex.def Info: ../picture/FFD_lattice_2_3.png used on input line 578.
+Package pdftex.def Info: ../picture/FFD_lattice_2_3.png used on input line 585.
 
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
-<../picture/FFD_transformed_2_3.png, id=183, 1184.425pt x 1053.9375pt>
+<../picture/FFD_transformed_2_3.png, id=180, 1184.425pt x 1053.9375pt>
 File: ../picture/FFD_transformed_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_transformed_2_3.png>
 Package pdftex.def Info: ../picture/FFD_transformed_2_3.png used on input line 
-584.
+591.
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
-<../picture/FFD_correspond_2_3.png, id=184, 1253.68375pt x 1053.9375pt>
+<../picture/FFD_correspond_2_3.png, id=181, 1253.68375pt x 1053.9375pt>
 File: ../picture/FFD_correspond_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_correspond_2_3.png>
 Package pdftex.def Info: ../picture/FFD_correspond_2_3.png used on input line 5
-90.
+97.
 (pdftex.def)             Requested size: 116.99693pt x 93.29034pt.
 
-<../picture/FFD_surface_2_3.png, id=185, 1184.425pt x 1053.9375pt>
+<../picture/FFD_surface_2_3.png, id=182, 1184.425pt x 1053.9375pt>
 File: ../picture/FFD_surface_2_3.png Graphic file (type png)
 
 <use ../picture/FFD_surface_2_3.png>
-Package pdftex.def Info: ../picture/FFD_surface_2_3.png used on input line 596.
+Package pdftex.def Info: ../picture/FFD_surface_2_3.png used on input line 603.
 
 (pdftex.def)             Requested size: 116.98553pt x 93.29034pt.
 
+<../picture/Degeneracy_original_20-1_21.png, id=194, 803.0pt x 874.26625pt>
+File: ../picture/Degeneracy_original_20-1_21.png Graphic file (type png)
 
-Package caption Warning: \label without proper \caption on input line 646.
-See the caption package documentation for explanation.
+<use ../picture/Degeneracy_original_20-1_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_original_20-1_21.png used on inp
+ut line 655.
+(pdftex.def)             Requested size: 84.23657pt x 91.7006pt.
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 653--657
+[]\OT1/txr/m/n/10 1)$[]$ 
+ []
 
 
-LaTeX Warning: Reference `fig:circle_ellipse_transformed' on page 5 undefined o
-n input line 628.
+<../picture/Degeneracy_correspondence_20-1_21.png, id=195, 803.0pt x 873.2625pt
+>
+File: ../picture/Degeneracy_correspondence_20-1_21.png Graphic file (type png)
+ <use ../picture/Degeneracy_correspondence_20-1_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_correspondence_20-1_21.png used 
+on input line 661.
+(pdftex.def)             Requested size: 84.23657pt x 91.59532pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 660--663
+[]$[]$ 
+ []
+
+<../picture/Degeneracy_surface_20-1_21.png, id=196, 803.0pt x 872.25874pt>
+File: ../picture/Degeneracy_surface_20-1_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_surface_20-1_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_surface_20-1_21.png used on inpu
+t line 667.
+(pdftex.def)             Requested size: 84.23657pt x 91.49004pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 666--669
+[]$[]$ 
+ []
+
+<../picture/Degeneracy_original_20-2_21.png, id=197, 803.0pt x 873.2625pt>
+File: ../picture/Degeneracy_original_20-2_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_original_20-2_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_original_20-2_21.png used on inp
+ut line 674.
+(pdftex.def)             Requested size: 84.23657pt x 91.59532pt.
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 672--676
+[]\OT1/txr/m/n/10 2)$[]$ 
+ []
 
 
-<../picture/circle_ellipse_original_points.png, id=194, 1445.4pt x 872.25874pt>
+<../picture/Degeneracy_correspondence_20-2_21.png, id=198, 677.53125pt x 683.55
+376pt>
+File: ../picture/Degeneracy_correspondence_20-2_21.png Graphic file (type png)
+ <use ../picture/Degeneracy_correspondence_20-2_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_correspondence_20-2_21.png used 
+on input line 680.
+(pdftex.def)             Requested size: 84.23657pt x 84.98508pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 679--682
+[]$[]$ 
+ []
+
+<../picture/Degeneracy_surface_20-2_21.png, id=199, 500.87125pt x 562.1pt>
+File: ../picture/Degeneracy_surface_20-2_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_surface_20-2_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_surface_20-2_21.png used on inpu
+t line 686.
+(pdftex.def)             Requested size: 84.23657pt x 94.5265pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 685--688
+[]$[]$ 
+ []
+
+<../picture/Degeneracy_original_20_21.png, id=200, 801.99625pt x 873.2625pt>
+File: ../picture/Degeneracy_original_20_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_original_20_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_original_20_21.png used on input
+ line 693.
+(pdftex.def)             Requested size: 84.23657pt x 91.71526pt.
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 691--696
+[]\OT1/txr/m/n/10 3)$[]$
+ []
+
+<../picture/Degeneracy_correspondence_20_21.png, id=201, 803.0pt x 871.255pt>
+File: ../picture/Degeneracy_correspondence_20_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_correspondence_20_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_correspondence_20_21.png used on
+ input line 700.
+(pdftex.def)             Requested size: 84.23657pt x 91.38477pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 699--703
+[]$[]$
+ []
+
+<../picture/Degeneracy_surface_20_21.png, id=202, 805.0075pt x 872.25874pt>
+File: ../picture/Degeneracy_surface_20_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_surface_20_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_surface_20_21.png used on input 
+line 707.
+(pdftex.def)             Requested size: 84.23657pt x 91.26378pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 706--710
+[]$[]$
+ []
+
+[5 <../picture/FFD_original_2_3.png> <../picture/FFD_lattice_2_3.png> <../pictu
+re/FFD_transformed_2_3.png> <../picture/FFD_correspond_2_3.png> <../picture/FFD
+_surface_2_3.png>]
+File: ../picture/Degeneracy_original_20-1_21.png Graphic file (type png)
+ <use ../picture/Degeneracy_original_20-1_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_original_20-1_21.png used on inp
+ut line 729.
+(pdftex.def)             Requested size: 84.23657pt x 91.7006pt.
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 727--731
+[]\OT1/txr/m/n/10 1)$[]$ 
+ []
+
+
+<../picture/Degeneracy_correspondence_length_20-1_21(1).png, id=214, 742.775pt 
+x 803.0pt>
+File: ../picture/Degeneracy_correspondence_length_20-1_21(1).png Graphic file (
+type png)
+ <use ../picture/Degeneracy_correspondence_length_20-1_21(1).png>
+Package pdftex.def Info: ../picture/Degeneracy_correspondence_length_20-1_21(1)
+.png used on input line 735.
+(pdftex.def)             Requested size: 84.23657pt x 91.06264pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 734--737
+[]$[]$ 
+ []
+
+
+<../picture/Degeneracy_surface_length_20-1_21.png, id=216, 742.775pt x 803.0pt>
+File: ../picture/Degeneracy_surface_length_20-1_21.png Graphic file (type png)
+<use ../picture/Degeneracy_surface_length_20-1_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_surface_length_20-1_21.png used 
+on input line 741.
+(pdftex.def)             Requested size: 84.23657pt x 91.06264pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 740--743
+[]$[]$ 
+ []
+
+File: ../picture/Degeneracy_original_20-2_21.png Graphic file (type png)
+<use ../picture/Degeneracy_original_20-2_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_original_20-2_21.png used on inp
+ut line 748.
+(pdftex.def)             Requested size: 84.23657pt x 91.59532pt.
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 746--750
+[]\OT1/txr/m/n/10 2)$[]$ 
+ []
+
+
+<../picture/Degeneracy_correspondence_length_20-2_21(1).png, id=217, 803.0pt x 
+874.26625pt>
+File: ../picture/Degeneracy_correspondence_length_20-2_21(1).png Graphic file (
+type png)
+ <use ../picture/Degeneracy_correspondence_length_20-2_21(1).png>
+Package pdftex.def Info: ../picture/Degeneracy_correspondence_length_20-2_21(1)
+.png used on input line 754.
+(pdftex.def)             Requested size: 84.23657pt x 91.7006pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 753--756
+[]$[]$ 
+ []
+
+
+<../picture/Degeneracy_surface_length_20-2_21.png, id=218, 803.0pt x 874.26625p
+t>
+File: ../picture/Degeneracy_surface_length_20-2_21.png Graphic file (type png)
+ <use ../picture/Degeneracy_surface_length_20-2_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_surface_length_20-2_21.png used 
+on input line 760.
+(pdftex.def)             Requested size: 84.23657pt x 91.7006pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 759--762
+[]$[]$ 
+ []
+
+File: ../picture/Degeneracy_original_20_21.png Graphic file (type png)
+<use ../picture/Degeneracy_original_20_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_original_20_21.png used on input
+ line 767.
+(pdftex.def)             Requested size: 84.23657pt x 91.71526pt.
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 765--770
+[]\OT1/txr/m/n/10 3)$[]$
+ []
+
+
+<../picture/Degeneracy_correspondence_length_20_21(1).png, id=219, 803.0pt x 87
+3.2625pt>
+File: ../picture/Degeneracy_correspondence_length_20_21(1).png Graphic file (ty
+pe png)
+ <use ../picture/Degeneracy_correspondence_length_20_21(1).png>
+Package pdftex.def Info: ../picture/Degeneracy_correspondence_length_20_21(1).p
+ng used on input line 774.
+(pdftex.def)             Requested size: 84.23657pt x 91.59532pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 773--777
+[]$[]$
+ []
+
+
+<../picture/Degeneracy_surface_length_20_21.png, id=220, 803.0pt x 873.2625pt>
+File: ../picture/Degeneracy_surface_length_20_21.png Graphic file (type png)
+
+<use ../picture/Degeneracy_surface_length_20_21.png>
+Package pdftex.def Info: ../picture/Degeneracy_surface_length_20_21.png used on
+ input line 781.
+(pdftex.def)             Requested size: 84.23657pt x 91.59532pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 780--784
+[]$[]$
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<../picture/circle_ellipse_original_points.png, id=227, 1445.4pt x 872.25874pt>
 File: ../picture/circle_ellipse_original_points.png Graphic file (type png)
 <use ../picture/circle_ellipse_original_points.png>
 Package pdftex.def Info: ../picture/circle_ellipse_original_points.png used on 
-input line 637.
+input line 824.
 (pdftex.def)             Requested size: 84.23657pt x 50.82927pt.
 
-Overfull \hbox (18.33pt too wide) in paragraph at lines 635--640
+Overfull \hbox (18.33pt too wide) in paragraph at lines 822--827
 []\OT1/txr/m/n/10 1)$[]$
  []
 
-<../picture/circle_ellipse_transformed.png, id=195, 1445.4pt x 881.2925pt>
+<../picture/circle_ellipse_transformed.png, id=228, 1445.4pt x 881.2925pt>
 File: ../picture/circle_ellipse_transformed.png Graphic file (type png)
 
 <use ../picture/circle_ellipse_transformed.png>
 Package pdftex.def Info: ../picture/circle_ellipse_transformed.png used on inpu
-t line 644.
+t line 831.
 (pdftex.def)             Requested size: 84.23657pt x 51.3557pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 643--647
+Overfull \hbox (10.0pt too wide) in paragraph at lines 830--834
 []$[]$
  []
 
-<../picture/circle_ellipse_correspondence.png, id=196, 1445.4pt x 881.2925pt>
+<../picture/circle_ellipse_correspondence.png, id=229, 1445.4pt x 881.2925pt>
 File: ../picture/circle_ellipse_correspondence.png Graphic file (type png)
 
 <use ../picture/circle_ellipse_correspondence.png>
 Package pdftex.def Info: ../picture/circle_ellipse_correspondence.png used on i
-nput line 651.
+nput line 838.
 (pdftex.def)             Requested size: 84.23657pt x 51.3557pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 650--654
+Overfull \hbox (10.0pt too wide) in paragraph at lines 837--841
 []$[]$
  []
 
-<../picture/circle_ellipse_surface.png, id=197, 1445.4pt x 877.2775pt>
+<../picture/circle_ellipse_surface.png, id=230, 1445.4pt x 877.2775pt>
 File: ../picture/circle_ellipse_surface.png Graphic file (type png)
 
 <use ../picture/circle_ellipse_surface.png>
 Package pdftex.def Info: ../picture/circle_ellipse_surface.png used on input li
-ne 658.
+ne 845.
 (pdftex.def)             Requested size: 84.23657pt x 51.12173pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 657--661
+Overfull \hbox (10.0pt too wide) in paragraph at lines 844--848
 []$[]$
  []
 
 File: ../picture/circle_ellipse_original_points.png Graphic file (type png)
 <use ../picture/circle_ellipse_original_points.png>
 Package pdftex.def Info: ../picture/circle_ellipse_original_points.png used on 
-input line 666.
+input line 853.
 (pdftex.def)             Requested size: 84.23657pt x 50.82927pt.
 
-Overfull \hbox (18.33pt too wide) in paragraph at lines 664--670
+Overfull \hbox (18.33pt too wide) in paragraph at lines 851--857
 []\OT1/txr/m/n/10 2)$[]$
  []
 
 
-<../picture/circle_ellipse_medial_transformed.png, id=198, 1445.4pt x 875.27pt>
+<../picture/circle_ellipse_medial_transformed.png, id=231, 1445.4pt x 875.27pt>
 File: ../picture/circle_ellipse_medial_transformed.png Graphic file (type png)
 <use ../picture/circle_ellipse_medial_transformed.png>
 Package pdftex.def Info: ../picture/circle_ellipse_medial_transformed.png used 
-on input line 674.
+on input line 861.
 (pdftex.def)             Requested size: 84.23657pt x 51.00475pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 673--678
+Overfull \hbox (10.0pt too wide) in paragraph at lines 860--865
 []$[]$
  []
 
 
-<../picture/circle_ellipse_medial_correspondence.png, id=199, 1445.4pt x 876.27
+<../picture/circle_ellipse_medial_correspondence.png, id=232, 1445.4pt x 876.27
 374pt>
 File: ../picture/circle_ellipse_medial_correspondence.png Graphic file (type pn
 g)
  <use ../picture/circle_ellipse_medial_correspondence.png>
 Package pdftex.def Info: ../picture/circle_ellipse_medial_correspondence.png us
-ed on input line 682.
+ed on input line 869.
 (pdftex.def)             Requested size: 84.23657pt x 51.06325pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 681--686
+Overfull \hbox (10.0pt too wide) in paragraph at lines 868--873
 []$[]$
  []
 
-<../picture/circle_ellipse_medial_surface.png, id=200, 1445.4pt x 875.27pt>
+<../picture/circle_ellipse_medial_surface.png, id=233, 1445.4pt x 875.27pt>
 File: ../picture/circle_ellipse_medial_surface.png Graphic file (type png)
 
 <use ../picture/circle_ellipse_medial_surface.png>
 Package pdftex.def Info: ../picture/circle_ellipse_medial_surface.png used on i
-nput line 690.
+nput line 877.
 (pdftex.def)             Requested size: 84.23657pt x 51.00475pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 689--694
+Overfull \hbox (10.0pt too wide) in paragraph at lines 876--881
 []$[]$
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package caption Warning: \label without proper \caption on input line 676.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:circle_ellipse_medial_transformed' on page 5 unde
-fined on input line 710.
-
-
-Package caption Warning: \label without proper \caption on input line 684.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:circle_ellipse_medial_correspondence' on page 5 u
-ndefined on input line 715.
-
-
-Package caption Warning: \label without proper \caption on input line 692.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:circle_ellipse_medial_surface' on page 5 undefine
-d on input line 715.
-
-<../picture/Medial_original_19_20.png, id=205, 803.0pt x 881.2925pt>
+<../picture/Medial_original_19_20.png, id=238, 803.0pt x 881.2925pt>
 File: ../picture/Medial_original_19_20.png Graphic file (type png)
 
 <use ../picture/Medial_original_19_20.png>
 Package pdftex.def Info: ../picture/Medial_original_19_20.png used on input lin
-e 722.
+e 910.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (18.33pt too wide) in paragraph at lines 720--725
+Overfull \hbox (18.33pt too wide) in paragraph at lines 908--913
 []\OT1/txr/m/n/10 1)$[]$
  []
 
 
-<../picture/Medial_non_axes_transformed_19_20.png, id=206, 803.0pt x 881.2925pt
+<../picture/Medial_non_axes_transformed_19_20.png, id=239, 803.0pt x 881.2925pt
 >
 File: ../picture/Medial_non_axes_transformed_19_20.png Graphic file (type png)
  <use ../picture/Medial_non_axes_transformed_19_20.png>
 Package pdftex.def Info: ../picture/Medial_non_axes_transformed_19_20.png used 
-on input line 729.
+on input line 917.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 728--732
+Overfull \hbox (10.0pt too wide) in paragraph at lines 916--920
 []$[]$
  []
 
 
-<../picture/Medial_non_axes_correspondence_19_20.png, id=207, 803.0pt x 881.292
+<../picture/Medial_non_axes_correspondence_19_20.png, id=240, 803.0pt x 881.292
 5pt>
 File: ../picture/Medial_non_axes_correspondence_19_20.png Graphic file (type pn
 g)
  <use ../picture/Medial_non_axes_correspondence_19_20.png>
 Package pdftex.def Info: ../picture/Medial_non_axes_correspondence_19_20.png us
-ed on input line 736.
+ed on input line 924.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 735--739
+Overfull \hbox (10.0pt too wide) in paragraph at lines 923--927
 []$[]$
  []
 
-<../picture/Medial_non_axes_surface_19_20.png, id=208, 803.0pt x 881.2925pt>
+<../picture/Medial_non_axes_surface_19_20.png, id=241, 803.0pt x 881.2925pt>
 File: ../picture/Medial_non_axes_surface_19_20.png Graphic file (type png)
 
 <use ../picture/Medial_non_axes_surface_19_20.png>
 Package pdftex.def Info: ../picture/Medial_non_axes_surface_19_20.png used on i
-nput line 743.
+nput line 931.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 742--746
+Overfull \hbox (10.0pt too wide) in paragraph at lines 930--934
 []$[]$
  []
 
 File: ../picture/Medial_original_19_20.png Graphic file (type png)
 <use ../picture/Medial_original_19_20.png>
 Package pdftex.def Info: ../picture/Medial_original_19_20.png used on input lin
-e 751.
+e 939.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (18.33pt too wide) in paragraph at lines 749--755
+Overfull \hbox (18.33pt too wide) in paragraph at lines 937--943
 []\OT1/txr/m/n/10 2)$[]$
  []
 
-<../picture/Medial_transformed_19_20.png, id=209, 803.0pt x 881.2925pt>
+<../picture/Medial_transformed_19_20.png, id=242, 803.0pt x 881.2925pt>
 File: ../picture/Medial_transformed_19_20.png Graphic file (type png)
 
 <use ../picture/Medial_transformed_19_20.png>
 Package pdftex.def Info: ../picture/Medial_transformed_19_20.png used on input 
-line 759.
+line 947.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 758--763
+Overfull \hbox (10.0pt too wide) in paragraph at lines 946--951
 []$[]$
  []
 
-<../picture/Medial_correspondence_19_20.png, id=210, 803.0pt x 881.2925pt>
+<../picture/Medial_correspondence_19_20.png, id=243, 803.0pt x 881.2925pt>
 File: ../picture/Medial_correspondence_19_20.png Graphic file (type png)
 
 <use ../picture/Medial_correspondence_19_20.png>
 Package pdftex.def Info: ../picture/Medial_correspondence_19_20.png used on inp
-ut line 767.
+ut line 955.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 766--771
+Overfull \hbox (10.0pt too wide) in paragraph at lines 954--959
 []$[]$
  []
 
-<../picture/Medial_surface_19_20.png, id=211, 803.0pt x 881.2925pt>
+<../picture/Medial_surface_19_20.png, id=244, 803.0pt x 881.2925pt>
 File: ../picture/Medial_surface_19_20.png Graphic file (type png)
 
 <use ../picture/Medial_surface_19_20.png>
 Package pdftex.def Info: ../picture/Medial_surface_19_20.png used on input line
- 775.
+ 963.
 (pdftex.def)             Requested size: 70.19714pt x 77.04028pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 774--779
+Overfull \hbox (10.0pt too wide) in paragraph at lines 962--967
 []$[]$
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <../picture/FFD_original_2_3.png> <../picture/FFD_lattice_2_3.png> <../pictu
-re/FFD_transformed_2_3.png> <../picture/FFD_correspond_2_3.png> <../picture/FFD
-_surface_2_3.png>] [6 <../picture/circle_ellipse_original_points.png> <../pictu
-re/circle_ellipse_transformed.png> <../picture/circle_ellipse_correspondence.pn
-g> <../picture/circle_ellipse_surface.png> <../picture/circle_ellipse_medial_tr
-ansformed.png> <../picture/circle_ellipse_medial_correspondence.png> <../pictur
-e/circle_ellipse_medial_surface.png> <../picture/Medial_original_19_20.png> <..
-/picture/Medial_non_axes_transformed_19_20.png> <../picture/Medial_non_axes_cor
-respondence_19_20.png> <../picture/Medial_non_axes_surface_19_20.png> <../pictu
-re/Medial_transformed_19_20.png> <../picture/Medial_correspondence_19_20.png> <
-../picture/Medial_surface_19_20.png>] (./ecrc-template.bbl
+[6 <../picture/Degeneracy_original_20-1_21.png> <../picture/Degeneracy_correspo
+ndence_20-1_21.png> <../picture/Degeneracy_surface_20-1_21.png> <../picture/Deg
+eneracy_original_20-2_21.png> <../picture/Degeneracy_correspondence_20-2_21.png
+> <../picture/Degeneracy_surface_20-2_21.png> <../picture/Degeneracy_original_2
+0_21.png> <../picture/Degeneracy_correspondence_20_21.png> <../picture/Degenera
+cy_surface_20_21.png>] [7 <../picture/Degeneracy_correspondence_length_20-1_21(
+1).png> <../picture/Degeneracy_surface_length_20-1_21.png> <../picture/Degenera
+cy_correspondence_length_20-2_21(1).png> <../picture/Degeneracy_surface_length_
+20-2_21.png> <../picture/Degeneracy_correspondence_length_20_21(1).png> <../pic
+ture/Degeneracy_surface_length_20_21.png> <../picture/circle_ellipse_original_p
+oints.png> <../picture/circle_ellipse_transformed.png> <../picture/circle_ellip
+se_correspondence.png> <../picture/circle_ellipse_surface.png> <../picture/circ
+le_ellipse_medial_transformed.png> <../picture/circle_ellipse_medial_correspond
+ence.png> <../picture/circle_ellipse_medial_surface.png>] [8 <../picture/Medial
+_original_19_20.png> <../picture/Medial_non_axes_transformed_19_20.png> <../pic
+ture/Medial_non_axes_correspondence_19_20.png> <../picture/Medial_non_axes_surf
+ace_19_20.png> <../picture/Medial_transformed_19_20.png> <../picture/Medial_cor
+respondence_19_20.png> <../picture/Medial_surface_19_20.png>]
+(./ecrc-template.bbl
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -1341,49 +1547,58 @@ Missing character: There is no “ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
- [7
+ [9
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 828.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 828.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1014.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1014.
+ (./ecrc-template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1014.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1014.
 
-(./ecrc-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 828.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 828.
-Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
-(rerunfilecheck)             Checksum: F0EC140B8EE7410729DB1E49F9C3EA5D;720.
 
+
+Package rerunfilecheck Warning: File `ecrc-template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ecrc-template.out':
+(rerunfilecheck)             Before: 577E30CE6681EC73A8FB67C6EF044BBA;712
+(rerunfilecheck)             After:  AD6BC4653966CEB646E37C8B29BABAA3;626.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 828.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1014.
  ) 
 Here is how much of TeX's memory you used:
- 9625 strings out of 493307
- 144892 string characters out of 6139906
- 246872 words of memory out of 5000000
- 12828 multiletter control sequences out of 15000+600000
+ 9708 strings out of 493307
+ 148649 string characters out of 6139906
+ 249918 words of memory out of 5000000
+ 12892 multiletter control sequences out of 15000+600000
  44177 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,15n,40p,541b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-ex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on ecrc-template.pdf (8 pages, 1140301 bytes).
+ 42i,15n,40p,681b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on ecrc-template.pdf (10 pages, 1760265 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

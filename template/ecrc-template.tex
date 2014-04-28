@@ -1,4 +1,5 @@
 
+
 % Template for Elsevier CRC journal article
 % version 1.2 dated 09 May 2011
 
@@ -430,6 +431,12 @@ projection to subdivide the contour which is the one, in one-to-many
 case, and reducing the problem to one-to-one case. See detail in
 section \ref{medial axis}.
 \begin{description}
+\item[$\bullet$]Capping Region:
+\end{description}
+Set the transformation direction, solve the degeneracy problem. See
+detail in section \ref{capping region}.
+
+\begin{description}
 \item[$\bullet$]Matching Contour Based on the FFD:
 \end{description}
 Obtaining the correspondence based on the FFD. See detail in section \ref{ffd}.
@@ -613,6 +620,184 @@ based on the correspondence which is obtained by the IFFD
 matching. From fig. \ref{fig:FFD_transformed_2_3} \ref{fig:FFD_correspond_2_3} we
 can see that the correspondence is satisfied.
 
+\subsection{Capping Region}
+\label{capping region}
+In capping region, where a contour  has no counterpart in the
+neighbor layer, degeneracy occurs. This degeneracy is undesirable in
+the most time, like fig.\ref{fig:Degeneracy} shown.This degeneracy case
+is very common in reconstruction , some methods chose left this
+section as a plain surface, but the preferred way is that make a slant
+surface between the adjacent contours.  In our framework, we can
+handle this degeneracy easily. In fig.\ref{fig:Degeneracy}.(b) The
+upper layer was shrinked caused by the IFFD. From
+fig.\ref{fig:Degeneracy}.(b)-(c),we can see that, the correspondence
+is incorrect, and the reconstructed surface has a wrong
+section. Actually, the shape shown in the fig.\ref{fig:Degeneracy} is a
+branching problem, and one branch represents a capping region
+(\cite{jeong_b-spline_1999} call the capping region as single
+branching problem).
+
+In order to solve this problem, we just need to measure the length of
+every contour, and make sure that we only transform the shorter
+contour to the longer one. Figure \ref{fig:the capping region problem} demonstrates that the length
+check is very effective. As shown in fig. \ref{fig:the capping region
+  problem}(b)-(c), the shrink was solved, and the correspondence is
+almost correct, expect the section in red square. There is a gap like
+a triangle in the red square, since there is no points as the
+counterpart in the green contour for the red contour. So the points in
+the red point corresponded to the nearest boundary points in the green
+contour. We will solve this problem in the section\ref{medial axis}.
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.18\textwidth}
+1)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_original_20-1_21.png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_correspondence_20-1_21.png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_surface_20-1_21.png}
+\end{array}$
+\end{subfigure}
+
+\begin{subfigure}[b]{0.18\textwidth}
+2)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_original_20-2_21.png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_correspondence_20-2_21.png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_surface_20-2_21.png}
+\end{array}$
+\end{subfigure}
+
+\begin{subfigure}[b]{0.18\textwidth}
+3)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_original_20_21.png}
+\end{array}$
+\centerline{~~~~~~~~~(a)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_correspondence_20_21.png}
+\end{array}$
+\centerline{~~~~(b)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_surface_20_21.png}
+\end{array}$
+\centerline{~~~~(c)}
+\end{subfigure}
+\caption{The degeneracy of the capping region: There are two layers,
+  the lower layer has two contours in red, the upper layer has one
+  contour. 1) the lower contour is smaller
+  one in the lower layer involved in the process. 2) the lower contour
+  is  bigger one in  the lower layer involved in the process. 3) both
+  contours in the lower layer involved in the process. (a) the original
+  contours, the upper layer contains one contour in green, the lower
+  contains one contour in red. (b) the correspondence based on the  IFFD. (c) the final surface 
+}
+\label{fig:Degeneracy}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.18\textwidth}
+1)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_original_20-1_21.png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_correspondence_length_20-1_21(1).png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_surface_length_20-1_21.png}
+\end{array}$
+\end{subfigure}
+
+\begin{subfigure}[b]{0.18\textwidth}
+2)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_original_20-2_21.png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_correspondence_length_20-2_21(1).png}
+\end{array}$
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_surface_length_20-2_21.png}
+\end{array}$
+\end{subfigure}
+
+\begin{subfigure}[b]{0.18\textwidth}
+3)$
+\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_original_20_21.png}
+\end{array}$
+\centerline{~~~~~~~~~(a)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_correspondence_length_20_21(1).png}
+\end{array}$
+\centerline{~~~~(b)}
+\end{subfigure}
+~~~~~~~~~~~~~~~
+\begin{subfigure}[b]{0.18\textwidth}
+$\begin{array}{l}
+\includegraphics[width=\textwidth]{../picture/Degeneracy_surface_length_20_21.png}
+\end{array}$
+\centerline{~~~~(c)}
+\end{subfigure}
+
+
+
+\caption{the capping region problem: 1) both layer contain one
+  contour, the process don't consider the length; 2) lower layer
+  contains contain two contour in red, upper layer contains one
+  contour in green. the process don't consider the length; 3) lower layer
+  contains contain two contour in red, upper layer contains one
+  contour in green. the process consider the length. (a)the original
+  contours ;(b) the correspondence based on IFFD; (c) the final surface.
+}
+\label{fig:the capping region problem}
+\end{figure}
+
+
+
 \subsection{Medial Axis for Branching Problem}
 \label{medial axis}
 
@@ -625,9 +810,11 @@ function, illustrative examples is shown in fig. \ref{fig:synthetic data for bra
 fig.\ref{fig:synthetic data for branches}, the shape represents a
 classic branches problem, the upper layer contains two contours (both
 are circles), and the lower layer contains one contour is an
-ellipse. A intersection (fig.\ref{fig:synthetic data for branches}(1)(b) is
+ellipse. A intersection (fig.\ref{fig:synthetic data for branches}(1)(b)) is
 introduced by the transform when we calculate the correspondence,
-which is unexpected in the most time. 
+which is unexpected in the most time. And even for one-to-one case,
+there may be a gap left on the surface, \ref{fig:the capping region
+  problem}.
 
 \begin{figure}[h]
 \centering
@@ -707,12 +894,13 @@ medial axis to separate the lower layer. Generally, the lower layer
 will be divide into the same parts as upper layers.
 
 As fig.\ref{fig:synthetic data for branches} shown, the medial axes of
-upper layer  (fig.\ref{fig:circle_ellipse_medial_transformed} red
+upper layer  (fig.\ref{fig:synthetic data for branches}.2(b) red
 points) is first calculated, and then project the medial axes into the
 lower layer inner-contour section, finally we recalculate the distance
 map of the lower layer, until now we can apply the reconstruction
 based on IFFD technique as usual. The result is more naturally, see
-fig.\ref{fig:circle_ellipse_medial_correspondence},\ref{fig:circle_ellipse_medial_surface}.
+fig.\ref{fig:synthetic data for branches}. 2(c),\ref{fig:synthetic data
+  for branches}. 2(d).
 
 \begin{figure}[h]
 \centering
@@ -788,13 +976,23 @@ $\begin{array}{l}
 
 
 
-\section{Results and Discussions}
-\label{section4}
-\subsection{Capping Region Problem} 
-use the energy function to  detect the Capping Region
-\subsection{Accurate Reconstruction of Organs}
-analyze the accurate of the result of the organ, relation between the
-lattice distance and the points intensity.
+\section{EXPERIMENTAL RESULTS}
+\label{experimental results}
+We show some examples of running our algorithm in several
+datasets. Reconstruction is used extensively in medical imaging. So
+firstly, we provide the reconstruction from corss-section of human body.
+
+Fig. shows the stanford bunny, which can demonstrate the ability of
+our algorithm to cope with the branching problem,the ears are
+classical branches.
+
+Another example is the reconstruction of dragon. The dragon model is
+considerably a more complicated situation, the horns is a multiple
+branching case.
+
+Finally, we show a more complicated example, Happy Buddha, which have
+holes and the clothes is draped well.
+
 %% \label{}
 
 %% References

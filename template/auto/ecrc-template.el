@@ -32,6 +32,9 @@
      "fig:FFD_correspond_2_3"
      "fig:FFD_surface_2_3"
      "fig:FFD_Result"
+     "capping region"
+     "fig:Degeneracy"
+     "fig:the capping region problem"
      "medial axis"
      "fig:circle_ellipse_original_points"
      "fig:circle_ellipse_transformed"
@@ -49,7 +52,7 @@
      "fig:Medial_transformed_19_20"
      "fig:Medial_correspondence_19_20"
      "fig:Medial_surface_19_20"
-     "section4")
+     "experimental results")
     (TeX-run-style-hooks
      "rotating"
      "figuresright"
